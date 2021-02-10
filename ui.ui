@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>768</width>
+    <height>506</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton { 
+    color: rgb(78, 150, 255) ;
+    font-size:15px;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <widget class="QPlainTextEdit" name="plainTextEdit"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QCalendarWidget" name="calendarWidget"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0">
+       <item>
+        <widget class="QListWidget" name="listWidget">
+         <item>
+          <property name="text">
+           <string>工作性 交通 打车</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>工作性 交通 火车</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>工作性 住宿 酒店</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>工作性 餐饮 餐饮</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>工作性 其他 其他</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>-----------------------</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 饮食 吃饭</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 饮食 水果</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 饮食 牛奶</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 饮食 蔬菜</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 饮食 其他</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 居住 房租</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 居住 水费</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 居住 电费</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 居住 燃气费</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 居住 其他</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 交通 打车</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 交通 火车</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 交通 公共交通</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 医疗 就医</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 医疗 体检</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 生活 日用</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 生活 生活</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 通讯 话费</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 通讯 网费</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>维持性 其他 其他</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>-----------------------</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 数码 硬件产品</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 数码 软件会员</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 生活 服饰</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 生活 鞋袜</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 旅行 吃</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 旅行 住</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 旅行 交通</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 旅行 门票</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 旅行 其他</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 娱乐 娱乐</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 保健 保健</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>消费性 其他 其他</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>-----------------------</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 人情 请客</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 人情 随份子</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 人情 其他</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 亲密关系 情侣</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 亲密关系 弟弟</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 亲密关系 长辈</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 亲密关系 亲戚</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 亲密关系 朋友</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 宠物 宠物</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>社会性 其他 其他</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>-----------------------</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>提升性 保险 保险</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>提升性 积累 书</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>提升性 积累 课程</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>提升性 积累 内容</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>提升性 其他 其他</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>金额</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="money">
+           <property name="placeholderText">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>备注</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="remarks">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string>无</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QRadioButton" name="reimButton">
+           <property name="text">
+            <string>可报销</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="okButton">
+           <property name="text">
+            <string>确定</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>SoftVersion：1.0
+CodeVersion：20210210
+UiVersion：20200210
+CompileTime：20210210
+PowerBy：CFR</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
